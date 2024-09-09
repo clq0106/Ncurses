@@ -5,5 +5,9 @@ int main()
 
 	initscr();
 	printw("Geben sie zwei Koordinaten ein: ");
+	refresh();
+	x = getch();
+	y = getch();
+	
 
 }
